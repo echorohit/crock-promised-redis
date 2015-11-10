@@ -1,0 +1,41 @@
+{
+  "name": "crock-promised-redis",
+  "version": "1.0.0",
+  "description": "A small, promise-based Redis client",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint . && mocha --reporter spec 'tests/*-test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/echorohit/crock-promised-redis.git"
+  },
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "describe-property": "^1.0.0"
+  },
+  "devDependencies": {
+    "expect": "^1.12.2",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.3",
+    "redis": "^2.3.0"
+  },
+  "peerDependencies": {
+    "redis": "^2.3.0"
+  },
+  "keywords": [
+    "redis",
+    "then",
+    "promise",
+    "promises"
+  ],
+  "author": "Rohit Choudhary",
+  "license": "MIT",
+  "homepage": "https://github.com/echorohit/crock-promised-redis#readme",
+  "directories": {
+    "test": "tests"
+  },
+  "bugs": {
+    "url": "https://github.com/echorohit/crock-promised-redis/issues"
+  }
+}
